@@ -1,0 +1,6 @@
+if [ $1 = "ccarm" ]
+then
+	arm-linux-gnueabi-g++ *.cpp -Ofast -o mark
+else
+	c++ -o mark -Ofast *.cpp
+fi

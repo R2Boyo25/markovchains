@@ -1,0 +1,5 @@
+{
+	"binname": "mark",
+	"needsCompiled": true,
+	"compileScript": "comp"
+}
