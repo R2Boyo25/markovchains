@@ -9,7 +9,7 @@ using json = nlohmann::json;
 
 int main(int argc, char* argv[]) {
     MarkovGenerator markov;
-    if (argv > 1) {
+    if (argc > 1) {
        if (string(argv[2]) == "to") {
             markov.fromFile(argv[1]);
 
