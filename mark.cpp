@@ -23,7 +23,7 @@ int main(int argc, char* argv[]) {
             s << i.rdbuf();
 
             markov.fromJSON(s.str());
-            cout << markov.generate(len);
+            cout << markov.generate(len) << endl;
         } 
     } else {
         cout << "Usage:\n\tmark textfile to cachefile\n\tmark from cachefile lentogenerate" << endl;
